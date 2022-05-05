@@ -22,6 +22,11 @@ The following model serves as an example to demonstrate my concept/idea, and is 
 
 ## Hardware Implementation
 
+All 3 architecture are written in Verilog and implemented via Xilinx's Vivado on ZCU102.
+- Traditional : synchronous implementation with only main CNN network
+- Proposal-1  : synchronous implementation of early termination CNN network
+- Proposal-2  : asynchronous implementation of early termination CNN network
+
 ![triginal_architecture](https://github.com/lootr5858/master_thesis/blob/69872bdd97cd17967ba9b78947fcf1ef0892a5fa/resources/cnn_chip-traditional_architecture.drawio.png)
 *Figure 2. Hardware Architecture for tradition CNN implementation (main network only, synchronous circuit)*
 
@@ -30,3 +35,29 @@ The following model serves as an example to demonstrate my concept/idea, and is 
 
 ![proposal_2](https://github.com/lootr5858/master_thesis/blob/69872bdd97cd17967ba9b78947fcf1ef0892a5fa/resources/cnn_chip-proposal-2_architecture.drawio.png)
 *Figure 4. Hardware Architecture for Proposal-2: Asynchronous implementation with early termination*
+
+## Results
+
+Proposal-2 vs Traditional CNN hardware implementation:
+- as much as 5 times faster (min delay)
+- as much as 2.5 times lower power consumption (min power)
+- 69% increase in LUTs used
+- 43% increase in registers (reg) used
+
+![delay_min](https://github.com/lootr5858/master_thesis/blob/e2669a85a08b34ec107593d5cf22807e589dd847/resources/delay_min.png)
+*Figure 4. Min. delay comparison*
+
+![delay_max](https://github.com/lootr5858/master_thesis/blob/e2669a85a08b34ec107593d5cf22807e589dd847/resources/delay_max.png)
+*Figure 4. Max. delay comparison*
+
+![power_min](https://github.com/lootr5858/master_thesis/blob/e2669a85a08b34ec107593d5cf22807e589dd847/resources/power_min.png)
+*Figure 4. Min. power comparison*
+
+![power_max](https://github.com/lootr5858/master_thesis/blob/e2669a85a08b34ec107593d5cf22807e589dd847/resources/power_max.png)
+*Figure 4. Max. power comparison*
+
+![area_lut](https://github.com/lootr5858/master_thesis/blob/e2669a85a08b34ec107593d5cf22807e589dd847/resources/area_lut.png)
+*Figure 4. Area (LUT) comparison*
+
+![area_reg](https://github.com/lootr5858/master_thesis/blob/e2669a85a08b34ec107593d5cf22807e589dd847/resources/area_reg.png)
+*Figure 4. Area (Reg) comparison*
