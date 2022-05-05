@@ -1,10 +1,10 @@
 # High-Performance Asynchronous CNN Accelerator with Early Termination
 
-My Masters Thesis is co-advised by [Dr. Teo Tee Hui][https://epd.sutd.edu.sg/people/faculty/teo-tee-hui], SUTD, and [Dr. Wey I-Chyn][https://ee.cgu.edu.tw/p/405-1083-564,c11454.php?Lang=en], CGU.
+My Masters Thesis is co-advised by [Dr. Teo Tee Hui](https://epd.sutd.edu.sg/people/faculty/teo-tee-hui), SUTD, and [Dr. Wey I-Chyn](https://ee.cgu.edu.tw/p/405-1083-564,c11454.php?Lang=en), CGU.
 
 The topic of my thesis is on the hardware acceleration of a CNN with early termination function, via asynchronous technique.
 
-Link to my thesis paper [here][https://bit.ly/3OOItZd]
+Link to my thesis paper [here](https://bit.ly/3OOItZd)
 
 ## Motivation
 Real-world environment, such as lighting and object orientation, can vary drastically, resulting in a changing difficulty for object recognition. This meant that a fixed-depth CNN model may not be suitable for all cases, where shallow network may not have sufficient parameters for difficult inference workload, or phenomenon such as over-fitting on deeper network affecting the accuracy in easier workload, and calls for a dynamic network.
@@ -15,7 +15,7 @@ In hardware acceleration, asynchronous technique is used to reduce power consump
 
 ## Early Termination Model
 
-The following model serves as an example to demonstrate my concept/idea, and is trained and quantised using [Tensorflow][https://www.tensorflow.org/], with [Mnist Fashion dataset][https://github.com/zalandoresearch/fashion-mnist].
+The following model serves as an example to demonstrate my concept/idea, and is trained and quantised using [Tensorflow](https://www.tensorflow.org/), with [Mnist Fashion dataset](https://github.com/zalandoresearch/fashion-mnist).
 
 ![tf_graph_overview](https://github.com/lootr5858/master_thesis/blob/69872bdd97cd17967ba9b78947fcf1ef0892a5fa/resources/tf_grpah_overview.png)
 *Figure 1. Early Termination CNN model generated using Tensorflow Graph*
