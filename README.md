@@ -60,3 +60,8 @@ Proposal-2 vs Traditional CNN hardware implementation:
 
 ![area_reg](https://github.com/lootr5858/master_thesis/blob/f70bf49b42d542e96754be6f64dc8bec81ddcb6b/resources/area_reg.png)
 *Figure 10. Area (Reg) comparison*
+
+## Files & Folders
+- Asychronous : Verilog files for Proposal-2 hardware implementation
+- Synchronous : Verilog files for Proposal-1 hardware implementation
+- Resources.  : Resources for readme
