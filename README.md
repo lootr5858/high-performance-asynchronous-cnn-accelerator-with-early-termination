@@ -18,6 +18,7 @@ In hardware acceleration, asynchronous technique is used to reduce power consump
 The following model serves as an example to demonstrate my concept/idea, and is trained and quantised using [Tensorflow](https://www.tensorflow.org/), with [Mnist Fashion dataset](https://github.com/zalandoresearch/fashion-mnist).
  
 ![tf_graph_overview](https://github.com/lootr5858/master_thesis/blob/69872bdd97cd17967ba9b78947fcf1ef0892a5fa/resources/tf_grpah_overview.png)
+
 *Figure 1. Early Termination CNN model generated using Tensorflow Graph*
 
 ## Hardware Implementation
