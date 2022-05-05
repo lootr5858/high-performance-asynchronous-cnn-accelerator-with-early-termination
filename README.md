@@ -4,8 +4,6 @@ My Masters Thesis is co-advised by [Dr. Teo Tee Hui](https://epd.sutd.edu.sg/peo
 
 The topic of my thesis is on the hardware acceleration of a CNN with early termination function, via asynchronous technique.
 
-Link to my thesis paper [here](https://bit.ly/3OOItZd)
-
 ## Motivation
 Real-world environment, such as lighting and object orientation, can vary drastically, resulting in a changing difficulty for object recognition. This meant that a fixed-depth CNN model may not be suitable for all cases, where shallow network may not have sufficient parameters for difficult inference workload, or phenomenon such as over-fitting on deeper network affecting the accuracy in easier workload, and calls for a dynamic network.
 
