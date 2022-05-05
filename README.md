@@ -43,20 +43,20 @@ Proposal-2 vs Traditional CNN hardware implementation:
 - 69% increase in LUTs used
 - 43% increase in registers (reg) used
 
-![delay_min](https://github.com/lootr5858/master_thesis/blob/e2669a85a08b34ec107593d5cf22807e589dd847/resources/delay_min.png)
+![delay_min](https://github.com/lootr5858/master_thesis/blob/f70bf49b42d542e96754be6f64dc8bec81ddcb6b/resources/delay_min.png)
 *Figure 4. Min. delay comparison*
 
-![delay_max](https://github.com/lootr5858/master_thesis/blob/e2669a85a08b34ec107593d5cf22807e589dd847/resources/delay_max.png)
+![delay_max](https://github.com/lootr5858/master_thesis/blob/f70bf49b42d542e96754be6f64dc8bec81ddcb6b/resources/delay_max.png)
 *Figure 4. Max. delay comparison*
 
-![power_min](https://github.com/lootr5858/master_thesis/blob/e2669a85a08b34ec107593d5cf22807e589dd847/resources/power_min.png)
+![power_min](https://github.com/lootr5858/master_thesis/blob/f70bf49b42d542e96754be6f64dc8bec81ddcb6b/resources/power_min.png)
 *Figure 4. Min. power comparison*
 
-![power_max](https://github.com/lootr5858/master_thesis/blob/e2669a85a08b34ec107593d5cf22807e589dd847/resources/power_max.png)
+![power_max](https://github.com/lootr5858/master_thesis/blob/f70bf49b42d542e96754be6f64dc8bec81ddcb6b/resources/power_max.png)
 *Figure 4. Max. power comparison*
 
-![area_lut](https://github.com/lootr5858/master_thesis/blob/e2669a85a08b34ec107593d5cf22807e589dd847/resources/area_lut.png)
+![area_lut](https://github.com/lootr5858/master_thesis/blob/f70bf49b42d542e96754be6f64dc8bec81ddcb6b/resources/area_lut.png)
 *Figure 4. Area (LUT) comparison*
 
-![area_reg](https://github.com/lootr5858/master_thesis/blob/e2669a85a08b34ec107593d5cf22807e589dd847/resources/area_reg.png)
+![area_reg](https://github.com/lootr5858/master_thesis/blob/f70bf49b42d542e96754be6f64dc8bec81ddcb6b/resources/area_reg.png)
 *Figure 4. Area (Reg) comparison*
