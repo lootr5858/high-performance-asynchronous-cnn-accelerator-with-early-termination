@@ -1,5 +1,7 @@
 # High-Performance Asynchronous CNN Accelerator with Early Termination
 
+PENDING paper submission to MCSOC 2022
+
 My Masters Thesis is co-advised by [Dr. Teo Tee Hui](https://epd.sutd.edu.sg/people/faculty/teo-tee-hui), SUTD, and [Dr. Wey I-Chyn](https://ee.cgu.edu.tw/p/405-1083-564,c11454.php?Lang=en), CGU.
 
 The topic of my thesis is on the hardware acceleration of a CNN with early termination function, via asynchronous technique.
